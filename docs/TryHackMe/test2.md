@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buttons
+title: test2
 parent: TryHackMe
 nav_order: 2
 ---
