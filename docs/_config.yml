@@ -1,6 +1,11 @@
 remote_theme: pmarsceill/just-the-docs
 
+title: Haris Qazi
+description: My personal cybersecurity portfolio
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://harisqazi1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # Color scheme supports "light" (default) and "dark"
+
 color_scheme: light
 
 # Enable or disable the site search
