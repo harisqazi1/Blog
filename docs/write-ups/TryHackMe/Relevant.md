@@ -10,4 +10,4 @@ nav_order: 2
 <br>
 
 #### This is a test...
-![Initial Page](/assets/Pasted%20image%2020210613181039.png)
+![Initial Page](../blog/assets/Pasted%20image%2020210613181039.png)
