@@ -1,3 +1,10 @@
+---
+layout: default
+title: Introduction
+nav_order: 2
+---
+
+
 # Tools for CTFs
 
 A lot of the tools I use are built into the Kali Linux operating system. Most of these will be Linux commands.
