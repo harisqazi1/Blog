@@ -1,3 +1,11 @@
+---
+layout: default
+title: Introduction
+nav_order: 1
+---
+
+
+
 # Introduction
 
 #### Currently a cybersecurity student at a University. Interested in ethical hacking in general, whether it is hardware or software. Enjoy doing CTF \(Capture-The-Flag\) cybersecurity challenges in my free time. Hope to become a Cybersecurity Professional post-graduation.
