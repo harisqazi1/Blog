@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: CTF Tools
 nav_order: 2
 ---
 
