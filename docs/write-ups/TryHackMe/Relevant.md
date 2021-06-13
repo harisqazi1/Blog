@@ -8,3 +8,4 @@ nav_order: 2
 
 # Relevant
 
+![](Pasted%20image%2020210613181039.png)
