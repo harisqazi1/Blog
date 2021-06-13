@@ -1,8 +1,8 @@
 ---
 layout: default
-title: TryHackMe
-nav_order: 2
-has_children: true
+title: Code 
+parent: TryHackMe
+nav_order: 1
 ---
 
 
