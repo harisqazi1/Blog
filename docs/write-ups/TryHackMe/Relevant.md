@@ -7,7 +7,6 @@ nav_order: 2
 ---
 
 # Relevant
-<br>
 
 #### This is a write-up for the room on TryHackMe located at: [https://tryhackme.com/room/relevant](https://tryhackme.com/room/relevant)
 
