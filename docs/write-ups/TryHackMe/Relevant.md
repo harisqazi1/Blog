@@ -11,4 +11,4 @@ nav_order: 2
 
 #### This is a test...
 
-![](../../../../../../assets/Pasted image 20210613181039.png)
+![alt text](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613181039.png?raw=true)
