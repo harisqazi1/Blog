@@ -30,7 +30,7 @@ Nmap done: 1 IP address (1 host up) scanned in 120.16 seconds
 
 I later ran **sudo nmap -p- -Pn -sS -A 10.10.161.100 -oN fullscan.txt** which got me way more information**:**
 
-```
+```c
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-03 15:37 EDT
 Nmap scan report for 10.10.161.100
@@ -110,3 +110,7 @@ Nmap done: 1 IP address (1 host up) scanned in 722.09 seconds
 I needed to find a way into the system, or a foothold. I browsed to the IP address:
 
 ![alt text](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613181039.png?raw=true)
+
+I wanted to see if SMB is being ran on this page, I then used metasploit to find out what version of SMB was running:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613194928.png)
