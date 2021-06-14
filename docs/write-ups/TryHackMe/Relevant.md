@@ -109,8 +109,29 @@ Nmap done: 1 IP address (1 host up) scanned in 722.09 seconds
 
 I needed to find a way into the system, or a foothold. I browsed to the IP address:
 
-![alt text](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613181039.png?raw=true)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613181039.png?raw=true)
 
 I wanted to see if SMB is being ran on this page, I then used metasploit to find out what version of SMB was running:
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613194928.png?raw=true)
+
+I then ran a nmap script just for smb "**nmap --script smb-os-discovery 10.10.161.100**":
+
+```c
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard Evaluation 14393 (Windows Server 2016 Standard Evaluation 6.3)
+|   Computer name: Relevant
+|   NetBIOS computer name: RELEVANT\\x00
+|   Workgroup: WORKGROUP\\x00
+|\_  System time: 2021-06-03T13:22:34-07:00
+```
+
+I believed that smb is my way in. I then ran **smbclient**:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613195354.png?raw=true)
+
+I then noticed a unique Sharename **nt4wrksv**. I wanted to see what's in here. So I ran smbclient to have access to the share:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613195506.png?raw=true)
+
