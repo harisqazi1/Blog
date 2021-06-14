@@ -155,3 +155,19 @@ To me, this seemed like a login for an SMB user. Viewing [this writeup](https://
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613201833.png?raw=true)
 
+I did not know what tool to use next to get further. I then used [the same write-up](https://medium.com/cybersecpadawan/relevant-walk-through-on-tryhackme-f7dedfcb00dc) and noticed that I would have to use **psexec** which is located in **/usr/share/doc/python3-impacket/examples**. I was then able to run it on the SMB:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613202057.png?raw=true)
+
+The user for Bill did not work:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613202118.png?raw=true)
+
+Now I wanted to move back and see another way inside. Both port 80 and 49663 both are running the same website:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613202205.png?raw=true)
+
+I then ran **dirsearch** on the port 49663:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613202238.png?raw=true)
+
