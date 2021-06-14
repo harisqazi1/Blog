@@ -135,3 +135,23 @@ I then noticed a unique Sharename **nt4wrksv**. I wanted to see what's in here. 
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613195506.png?raw=true)
 
+I then saw a **passwords.txt** file.
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613201216.png?raw=true)
+
+I then wanted to download it:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613201351.png?raw=true)
+
+I was able to then read the password file on my local system:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613201429.png?raw=true)
+
+The passwords were encoded, and it seemed to be base64 to me. Using [https://www.base64decode.org/](https://www.base64decode.org/) I was able to decode the text:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613201605.png?raw=true)
+
+To me, this seemed like a login for an SMB user. Viewing [this writeup](https://medium.com/cybersecpadawan/relevant-walk-through-on-tryhackme-f7dedfcb00dc), I noticed that the decoded had made me miss another password. I then had 2 logins:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613201833.png?raw=true)
+
