@@ -113,4 +113,4 @@ I needed to find a way into the system, or a foothold. I browsed to the IP addre
 
 I wanted to see if SMB is being ran on this page, I then used metasploit to find out what version of SMB was running:
 
-![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613194928.png)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210613194928.png?raw=true)
