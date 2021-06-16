@@ -8,7 +8,7 @@ nav_order: 1
 
 # Relevant
 
-#### **This is a write-up for the room on TryHackMe located at: [https://tryhackme.com/room/relevant](https://tryhackme.com/room/relevant)**
+### This is a write-up for the room on TryHackMe located at: [https://tryhackme.com/room/relevant](https://tryhackme.com/room/relevant)
 --------------
 ### Nmap Scan:
 
