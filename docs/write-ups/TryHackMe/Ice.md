@@ -230,7 +230,3 @@ Here we can see the answer to the next question.
 > **golden_ticket_create**
 
 The room is now complete! Overall, it was a good room to learn beginner Windows attacks.
-
-https://github.com/harisqazi1/blog/blob/main/assets/
-
-?raw=true
