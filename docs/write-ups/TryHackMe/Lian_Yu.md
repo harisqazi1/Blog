@@ -50,7 +50,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 I see 4 ports open. My first idea is to open the main page.
 
-![](Pasted%20image%2020210615200106.png)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615200106.png?raw=true)
 
 Here, the word "arrow" was bolded, so I saved it, just in case it could mean something later on. I then ran a gobuster command, in order to enumerate the directories on the server. I ran the following command:
 
@@ -100,7 +100,7 @@ This word was in white, and I was unable to see it initially since it matched th
 
 Here I can see 4 files I need to get: The 2 PNGs, the one JPG, and the last file was the ".other user" file. I downloaded all of them using "mget *". This should download all the files to your local directory. Reading the ".other user", I came across this:
 
-![](Pasted%20image%2020210615200723.png)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615200723.png?raw=true)
 
 Here I can see various names, which could be potential usernames and/or passwords. One main name was "Slade" was what stuck out to me. I got stuck here once again. I then looked at the [previous write-up](https://infosecwriteups.com/tryhackme-lian-yu-ctf-writeup-detailed-7c229b1904fd), in order to realize that I had to run "steghide" on the aa.jpg file. When you run steghide, we need a password to extract the data from the aa.jpg file. This is where the Leave-me-alone.png file comes into play. The header for this file is messed up, so we have to edit the header. I found the header online on Wikipedia:
 
@@ -136,7 +136,7 @@ Here it can be seen that the command I can run as root is "pkexec". I then went 
 
 Running this command, I got to root:
 
-![](Pasted%20image%2020210615201427.png)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615201427.png?raw=true)
 
 Reading the root.txt file, I saw the last flag and was able to complete the box!
 
