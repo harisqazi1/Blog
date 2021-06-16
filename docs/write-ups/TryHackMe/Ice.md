@@ -57,7 +57,7 @@ The reason for this is that with this, you would get more information about the 
 
 **QUESTION: What does Nmap identify as the hostname of the machine? (All caps for the answer)**
 
-> DARK-PC
+> **DARK-PC**
 
 ## **Gain Access (20 min)**
 
@@ -93,19 +93,19 @@ I then entered in all of the Vulnerability types that I assumed were correct. Af
 
 **What type of vulnerability is it?**
 
-> Execute Code Overflow
+> **Execute Code Overflow**
 
 **What is the CVE number for this vulnerability?**
 
-> CVE-2004-1561
+> **CVE-2004-1561**
 
 **What is the full path (starting with exploit) for the exploitation module?**
 
-> exploit/windows/http/icecast_header
+> **exploit/windows/http/icecast_header**
 
 **What is the only required setting which currently is blank?**
 
-> RHOSTS
+> **RHOSTS**
 
 I then changed the LHOST to be my own IP given to me by TryHackMe. This was my options for the exploit:
 
@@ -121,15 +121,15 @@ For the following, it is straight forward questions, so I did not go super deep 
 
 **Woohoo! We've gained a foothold into our victim machine! What's the name of the shell we have now?**
 
-> meterpreter
+> **meterpreter**
 
 **What user was running that Icecast process ?**
 
-> Dark
+> **Dark**
 
 **What build of Windows is the system?**
 
-> 7601
+> **7601**
 
 **First, what is the architecture of the process we're running?**
 
