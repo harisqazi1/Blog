@@ -9,7 +9,7 @@ nav_order: 1
 # Relevant
 
 #### **This is a write-up for the room on TryHackMe located at: [https://tryhackme.com/room/relevant](https://tryhackme.com/room/relevant)**
-
+--------------
 ### Nmap Scan:
 
 I ran **nmap -T4 -A 10.10.161.100 -oN nmap\_output**, however this did not get me anywhere. It seemed to me that the host was blocking ping probes. I then ran **nmap -Pn 10.10.161.100**:

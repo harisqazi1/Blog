@@ -9,7 +9,7 @@ nav_order: 1
 # Ice
 
 ### This is a room by TryHackMe located at: [https://tryhackme.com/room/ice](https://tryhackme.com/room/ice)
-
+--------------
 
 ```c
 sudo nmap -sS -p- 10.10.158.64 -oN nmap_syn
