@@ -137,12 +137,99 @@ For the following, it is straight forward questions, so I did not go super deep 
 
 **What is the full path (starting with exploit/) for the first returned exploit?**
 
-> exploit/windows/local/bypassuac_eventvwr
+> **exploit/windows/local/bypassuac_eventvwr**
 
 After this, I then changed my payload to be for bypassing uac:
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615194214.png?raw=true)
 
+**We'll have to set one more as our listener IP isn't correct. What is the name of this option?**
+
+> **LHOST**
+
+I then ran run and the exploit was successful:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615194646.png?raw=true)
+
+Running "getprivs" on the second session got me:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615194729.png?raw=true)
+
+This helped me answer the question.
+
+**We can now verify that we have expanded permissions using the command `getprivs`. What permission listed allows us to take ownership of files?**
+
+> **SeTakeOwnershipPrivilege**
+
+## Looting (10 min)
+
+I then ran 'ps' to see the current processes on the room. This was my result:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615194839.png?raw=true)
+
+I then had to find a printer program for the next question. I was able to find it using the hint.
+
+**The printer spool service happens to meet our needs perfectly for this and it'll restart if we crash it! What's the name of the printer service?**
+
+> **spoolsv.exe**
+
+As suggested by the room, I then ran the following command:
+
+```c
+migrate -N spoolsv.exe
+```
+
+This was my result from that:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615194948.png?raw=true)
+
+**Let's check what user we are now with the command `getuid`. What user is listed?**
+
+> **NT AUTHORITYSYSTEM**
+
+I then installed Mimikatz on the machine using the following command:
+
+```c
+load kiwi
+```
+
+**Which command allows up to retrieve all credentials?**
+
+> **creds_all**
+
+I then ran this command, and got the following information:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210615195040.png?raw=true)
+
+Here we can see the answer to the next question.
+
+**Run this command now. What is Dark's password?**
+
+> **Password01!**
+
+## Post-Exploitation (10 min)
+
+**What command allows us to dump all of the password hashes stored on the system?**
+
+> **hashdump**
+
+**While more useful when interacting with a machine being used, what command allows us to watch the remote user's desktop in real time?**
+
+> **screenshare**
+
+**How about if we wanted to record from a microphone attached to the system?**
+
+> **record_mic**
+
+**To complicate forensics efforts we can modify timestamps of files on the system. What command allows us to do this?**
+
+> **Timestomp**
+
+**Mimikatz allows us to create what's called a `golden ticket`, allowing us to authenticate anywhere with ease. What command allows us to do this?**
+
+> **golden_ticket_create**
+
+The room is now complete! Overall, it was a good room to learn beginner Windows attacks.
 
 https://github.com/harisqazi1/blog/blob/main/assets/
 
