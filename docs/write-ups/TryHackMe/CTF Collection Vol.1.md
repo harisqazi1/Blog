@@ -21,7 +21,7 @@ echo "VEhNe2p1NTdfZDNjMGQzXzdoM19iNDUzfQ==" | base64 -d
 
 This decodes the string in the quotes using base64 encoding. After the command, I got the flag:
 
-![]((https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210621193112.png?raw=true))
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210621193112.png?raw=true)
 
 ## Task 3: Meta Meta
 
