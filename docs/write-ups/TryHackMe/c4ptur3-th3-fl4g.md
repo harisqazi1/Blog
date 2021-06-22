@@ -6,7 +6,10 @@ parent: TryHackMe
 nav_order: 1
 ---
 
+# c4ptur3-th3-fl4g
+
 ### This is a write-up for the TryHackMe room located at: [https://tryhackme.com/room/c4ptur3th3fl4g](https://tryhackme.com/room/c4ptur3th3fl4g)
+---------------------
 
 ```aspnet
 c4n y0u c4p7u23 7h3 f149?
