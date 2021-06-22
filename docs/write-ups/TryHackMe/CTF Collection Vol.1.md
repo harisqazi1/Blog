@@ -27,7 +27,7 @@ This decodes the string in the quotes using base64 encoding. After the command, 
 
 For this problem, it wants us to find a flag using its metadata. For this, I used a metadata reading tool on ParrotOS and Kali Linux called "exiftool". Running that command on the file that the problem presented led me to this:
 
-![]((https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210621193152.png?raw=true)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210621193152.png?raw=true)
 
 ## Task 4: Mon, are we going to be okay?
 
