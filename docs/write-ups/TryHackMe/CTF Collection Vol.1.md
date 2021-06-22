@@ -48,7 +48,7 @@ THM{------------------------}
 
 ## Task 5: Erm......Magick
 
-This problem mentions the word "Magick" in the title. This makes me think that I might need to run image. After 5 minutes of looking online to find the answer, I had to take a look at the hint. The hint told me that the flag could be hidden on the page somewhere. I then found the flag on the page:
+This problem mentions the word "Magick" in the title. This makes me think that I might need to run imageMagick. After 5 minutes of looking online to find the answer, I had to take a look at the hint. The hint told me that the flag could be hidden on the page somewhere. I then found the flag on the page:
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210621193805.png?raw=true)
 
