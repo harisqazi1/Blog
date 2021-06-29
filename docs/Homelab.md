@@ -40,7 +40,7 @@ I wanted to build a Homelab for myself in order to get enterprise experience wit
 
 ## Step 1: Firewall 
 
-I setup the firewall first, since all of the data was going to go through the Firewall. I used [Michael Bazzell's Book] (https://www.amazon.com/Extreme-Privacy-What-Takes-Disappear/dp/B094LDWKGZ/) in order to setup pfSense on my Protectli Vault. The steps (for me) were as follows:
+I setup the firewall first, since all of the data was going to go through the Firewall. I used [Michael Bazzell's Book](https://www.amazon.com/Extreme-Privacy-What-Takes-Disappear/dp/B094LDWKGZ/) in order to setup pfSense on my Protectli Vault. The steps (for me) were as follows:
 
 - Installation
 	- www.pfsense.org/download
