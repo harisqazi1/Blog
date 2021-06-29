@@ -73,4 +73,29 @@ I setup the firewall first, since all of the data was going to go through the Fi
 	- When finished will all of them, apply changes in the upper right
 	- "Interfaces" -> "Assignments" -> "Bridges"
 	- Click on "Add" to create a new bridge
+	- Select the LAN option and the other ports that was added with a CNTRL-CLICK or CMD-CLICK
+	- Provide a description, such as "bridge", and then hit "Save"
+	- "Firewall" -> "Rules"
+	- Click each port (Opt, Opt2, etc.) and click the "Add" button (up arrow) for each
+	- Change "Protocol" to "Any"
+	- Click "Save" after each port is modified
+	- Apply changes in the upper right after all the ports have been added
+	- "Interfaces" -> "Assignments"
+	- Click on "Add" next to "BRIDGE0" and click "Save"
+	- Click on a bridge, maybe called "Opt3" or "Opt5"
+	- Enable the Interface and change the description to "bridge"
+	- Click "Save", then "Apply Changes"
+	- "Firewall" -> "Rules"
+	- Click on "Bridge", then the "Add" button (up arrow)
+	- Change the "Protocol" to "Any" and click "Save"
+	- Apply changes in the upper-right
+- Prevent DNS leakage
+	- "System" -> "General Setup"
+	- Add "1.1.1.1" as a DNS server, and choose the "WAN_DHCP-wan" interface
+	- Click "Add DNS Server"
+	- Add "1.0.0.1" as a DNS server and choose the "WAN_DHCP-wan" interface
+	- Disable "DNS server override"
+	- Click "Save"
+- Enable AES-NI CPU Crypto & PowerD
+	- "System" -> "Advanced"
 	- 
