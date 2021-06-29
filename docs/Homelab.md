@@ -6,13 +6,13 @@ nav_order: 3
 
 # Homelab v1
 
-### Introduction
+## Introduction
 
 I wanted to build a Homelab for myself in order to get enterprise experience without having an enterprise-caliber occupation. I then started doing research and asking around until I found a setup that worked for me. This write-up is my journey through creating the Homelab.
 
-### Materials
+## Materials
 
-#### Hardware
+### Hardware
 
 
 | Type |  Name | Cost ($)|
@@ -27,7 +27,7 @@ I wanted to build a Homelab for myself in order to get enterprise experience wit
 | Power Cord | Cable Matters 2-Pack 16 AWG Heavy Duty 3 Prong Computer Monitor Power Cord in 15 Feet, UL Listed (NEMA 5-15P to IEC C13) | 24.99 |
 
 
-#### Software
+### Software
 
 | Type | Name |
 |------|-------|
