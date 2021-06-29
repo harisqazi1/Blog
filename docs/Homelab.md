@@ -108,7 +108,7 @@ I setup the firewall first, since all of the data was going to go through the Fi
 	- In the "Sounds" section, check the "Disable startup/shutdown beep"
 	- Click "Save"
 
-To test this you can use an online dns leak tool such as [DNSleaktest](www.dnsleaktest.com/ 
+To test this you can use an online dns leak tool such as [DNSleaktest](www.dnsleaktest.com/) 
 
 ## Server Setup
 
