@@ -98,4 +98,17 @@ I setup the firewall first, since all of the data was going to go through the Fi
 	- Click "Save"
 - Enable AES-NI CPU Crypto & PowerD
 	- "System" -> "Advanced"
-	- 
+	- Click on the "Miscellaneous" tab
+	- Locate the "Cryptographic & Thermal Hardware"
+	- Select "AES-NI CPU-based Acceleration" in the drop-down
+	- "System" -> "Advanced" -> "Miscellaneous" -> "Power Savings" -> Enable "PowerD"
+- Disable Notifications
+	- "System" -> "Advanced" -> "Notifications"
+	- Under the "E-mail" section, disable "SMTP Notifications"
+	- In the "Sounds" section, check the "Disable startup/shutdown beep"
+	- Click "Save"
+
+To test this you can use an online dns leak tool such as [DNSleaktest](www.dnsleaktest.com/ 
+
+## Server Setup
+
