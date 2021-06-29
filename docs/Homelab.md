@@ -60,4 +60,17 @@ I setup the firewall first, since all of the data was going to go through the Fi
 	- Click Advanced to allow the page to load
 	- Accept all defaults by clicking "Next", "Close", and "Finish"
 - Activate Ports (only applicable for 4-port & 6-port)
+	- Access the pfSense Web interface
+	- "Interfaces" -> "Assignments"
+	- Click "Add" option next to each empty port
+	- Repeat until all ports have been added
+	- Save Changes
+	- Click through each new port ("Interfaces" > "Opt1"/"Opt2")
+		- Enable each port by checking the first box
+		- Save change
+		- Do this for all ports
+			- "Interfaces" -> "Assignments"	to continue for the next port
+	- When finished will all of them, apply changes in the upper right
+	- "Interfaces" -> "Assignments" -> "Bridges"
+	- Click on "Add" to create a new bridge
 	- 
