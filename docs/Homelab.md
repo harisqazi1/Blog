@@ -32,9 +32,32 @@ I wanted to build a Homelab for myself in order to get enterprise experience wit
 | Type | Name |
 |------|-------|
 |Firewall | Pfsense |
-| Virtualization | VMware ESXi 6.5U |
+| Virtualization | VMware ESXi 6.5U3|
 | SIEM | AlienVault OSSIM |
 | Cloud | NextCloud |
 | RSS Feed | FreshRSS |
 | Password/Hash Cracking | Kali Linux |
 
+## Step 1: Firewall 
+
+I setup the firewall first, since all of the data was going to go through the Firewall. I used [Michael Bazzell's Book] (https://www.amazon.com/Extreme-Privacy-What-Takes-Disappear/dp/B094LDWKGZ/) in order to setup pfSense on my Protectli Vault. The steps (for me) were as follows:
+
+- Installation
+	- www.pfsense.org/download
+	- Architecture: AMD64 | Installer: USB Memstick Installer | Console: VGA | Mirror: New York
+	- Download the .gz file and decompress it
+		- You can use 7-zip for this
+		- You should end up with a "pfSense......-amd64.img" file
+	- Download Rufus or Etcher (flashing programs)
+	- Flash the pfSense file onto a USB device
+	- Power down Vault, if not powered down already
+	- Connect a USB keyboard and monitor to the Vault
+	- Insert USB into another USB port
+	- Power on the device
+	- Enter in all the defaults
+	- After the installation is complete, disconnect USB keyboard and Monitor
+	- Go to 192.168.1.1 -> user:admin / password:pfsense
+	- Click Advanced to allow the page to load
+	- Accept all defaults by clicking "Next", "Close", and "Finish"
+- Activate Ports (only applicable for 4-port & 6-port)
+	- 
