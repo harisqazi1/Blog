@@ -134,7 +134,7 @@ This part was straight forward on my end. I connected a Ethernet cable from the 
 
 The ethernet cable on the left (white cable) is for the network of the server.
 
-I connected a monitor and USB Keyboard to my server so I can see what is going on. My server is a bit older so it booted up for 3-4 minutes, and then it showed an IP Address for the server. You should be able to connect to that IP Address through your browser. I have IDRAC (Integrated Dell Remote Access Controller 6), so that is what I am accessing on the web. After the login screen (user: root | password: calvin) I saw this:
+I connected a monitor and USB Keyboard to my server so I can see what is going on. My server is a bit older so it booted up for 3-4 minutes, and then it showed an IP Address for the server. You should be able to connect to that IP Address through your browser. I have IDRAC (Integrated Dell Remote Access Controller 6), so that is what I am accessing on the web. After the login screen (user: root / password: calvin), I then went on the login screen: 
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210629201508.png?raw=true)
 
@@ -142,7 +142,15 @@ In the above image, my server was shutdown, otherwise the status for all the Com
 
 ### RAID-5 Setup
 
-I wanted to have a backup system for my server. I used RAID (Redundant Array of Inexpensive Disks) [RAID Wikipedia](https://en.wikipedia.org/wiki/RAID) in order to have a backup, more importantly RAID-5. RAID-5 is meant to work with 3 disks, and since I had 3 1TB hard drives, this was the best RAID model for me. After my server booted up, I tapped **CNTRL+R** in order to run the Configuration Utility. I then followed [this YouTube video](https://www.youtube.com/watch?v=sp7XV2x-CZc) in order to setup RAID-5 on my server.
+I wanted to have a backup system for my server. I used RAID (Redundant Array of Inexpensive Disks) [RAID Wikipedia](https://en.wikipedia.org/wiki/RAID) in order to have a backup, more importantly RAID-5. RAID-5 is meant to work with 3 disks, and since I had 3 1TB hard drives, this was the best RAID model for me. After my server booted up, I tapped **CNTRL+R** in order to run the Configuration Utility. I then followed [this YouTube video](https://www.youtube.com/watch?v=sp7XV2x-CZc) in order to setup RAID-5 on my server. I set it up on a screen resembling this:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210629205531.png?raw=true)
+
+### VMware ESXi Setup
+
+I downloaded ESXi from 
+
+
 
 
 
