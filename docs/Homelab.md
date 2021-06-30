@@ -40,6 +40,10 @@ I wanted to build a Homelab for myself in order to get enterprise experience wit
 
 ## Step 1: Firewall 
 
+|Hardware | Software |
+|---------------| -------| 
+| Protectli Vault 4 Port | pfSense |
+
 I setup the firewall first, since all of the data was going to go through the Firewall. I used [Michael Bazzell's Book](https://www.amazon.com/Extreme-Privacy-What-Takes-Disappear/dp/B094LDWKGZ/) in order to setup pfSense on my Protectli Vault. The steps (for me) were as follows:
 
 - Installation
@@ -111,4 +115,24 @@ I setup the firewall first, since all of the data was going to go through the Fi
 To test this you can use an online dns leak tool such as [DNSleaktest](www.dnsleaktest.com/) 
 
 ## Server Setup
+
+| Hardware | Software |
+| ---------| ---------|
+| Dell PowerEdge R710 2U Server X5650 2.66GHz 12-Cores / 64gb / 3x 1TB SAS / 2xPSU | VMware ESXi 6.5U3|
+|  | AlienVault OSSIM |
+|  | NextCloud |
+|  | FreshRSS |
+|  | Kali Linux |
+
+My server came cleaned or "Factory Reset" so my steps are going to be after that is completed. 
+
+### Network Setup
+
+This part was straight forward on my end. I connected a Ethernet cable from the server to my switch (which was connected to my router) 
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210629193311.png?raw=true)
+
+https://github.com/harisqazi1/blog/blob/main/assets/
+
+?raw=true)
 
