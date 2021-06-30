@@ -140,6 +140,9 @@ I connected a monitor and USB Keyboard to my server so I can see what is going o
 
 In the above image, my server was shutdown, otherwise the status for all the Components is green. 
 
+### RAID-5 Setup
+
+I wanted to have a backup system for my server. I used RAID (Redundant Array of Inexpensive Disks) [RAID Wikipedia](https://en.wikipedia.org/wiki/RAID) in order to have a backup, more importantly RAID-5. RAID-5 is meant to work with 3 disks, and since I had 3 1TB hard drives, this was the best RAID model for me. After my server booted up, I tapped **CNTRL+R** in order to run the Configuration Utility. I then followed [this YouTube video](https://www.youtube.com/watch?v=sp7XV2x-CZc) in order to setup RAID-5 on my server.
 
 
 
