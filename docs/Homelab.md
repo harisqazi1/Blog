@@ -130,7 +130,18 @@ My server came cleaned or "Factory Reset" so my steps are going to be after that
 
 This part was straight forward on my end. I connected a Ethernet cable from the server to my switch (which was connected to my router) 
 
-![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210629193311.png?raw=true)
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210629200747.png?raw=true)
+
+The ethernet cable on the left (white cable) is for the network of the server.
+
+I connected a monitor and USB Keyboard to my server so I can see what is going on. My server is a bit older so it booted up for 3-4 minutes, and then it showed an IP Address for the server. You should be able to connect to that IP Address through your browser. I have IDRAC (Integrated Dell Remote Access Controller 6), so that is what I am accessing on the web. After the login screen (user: root | password: calvin) I saw this:
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210629201508.png?raw=true)
+
+In the above image, my server was shutdown, otherwise the status for all the Components is green. 
+
+
+
 
 https://github.com/harisqazi1/blog/blob/main/assets/
 
