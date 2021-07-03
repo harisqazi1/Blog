@@ -166,11 +166,19 @@ WARNING: If you do not use RAID, you will still need to "virtualize" your disks 
 	-	This shows the IP the ESXi is on your network
 -	I then was able to connect to the ESXi host, and start making VMs
 
-### My Setup
+## My Setup
 
 At this point, I configured the server to my needs. I will go into detail about what I did so it is clear if someone in the future wanted to replicate it.
 
 #### ESXi VMs
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703180945.png?raw=true)
+
+##### Nextcloud: My locally hosted cloud, so I do not have to rely on third-party software or SaaS providers.
+
+##### Dashboard: This is an Ubuntu VM with 2 docker containers and Grafana 
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703181642.png?raw=true)
 
 
 
