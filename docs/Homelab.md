@@ -186,7 +186,7 @@ Dashboard: This is an Ubuntu VM with 2 docker containers and Grafana:
 
 [FreshRSS](https://www.freshrss.org/) is a open-source RSS feed
 
-[Grafana] is a dashboard for information usually in some sort of infographic:
+[Grafana](https://grafana.com/) is a dashboard for information usually in some sort of infographic:
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703182949.png?raw=true)
 
