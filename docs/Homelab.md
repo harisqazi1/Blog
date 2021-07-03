@@ -174,9 +174,9 @@ At this point, I configured the server to my needs. I will go into detail about 
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703180945.png?raw=true)
 
-##### Nextcloud: My locally hosted cloud, so I do not have to rely on third-party software or SaaS providers.
+Nextcloud: My locally hosted cloud, so I do not have to rely on third-party software or SaaS providers.
 
-##### Dashboard: This is an Ubuntu VM with 2 docker containers and Grafana 
+Dashboard: This is an Ubuntu VM with 2 docker containers and Grafana 
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703181642.png?raw=true)
 
