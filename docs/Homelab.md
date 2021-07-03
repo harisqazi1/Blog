@@ -114,6 +114,10 @@ I setup the firewall first, since all of the data was going to go through the Fi
 
 To test this you can use an online dns leak tool such as [DNSleaktest](www.dnsleaktest.com/) 
 
+### Privacy
+
+I believe that privacy is an important aspect of our lives. With that being said, here are some changes I added to my pfSense to make my firewall more private. I found a list of Windows telemetry domains on [Github](https://github.com/kevinle-1/Windows-Telemetry-Blocklist/blob/master/windowsblock.txt). I then added those to my pfsense using [this guide](https://linuxincluded.com/block-ads-malvertising-on-pfsense-using-pfblockerng-dnsbl/). Using the same guide, I was able to choose more blocklists from pfSenses recommended list under (Firewall -> pfblockerNG -> Feeds). I also chose to add [Apple Telemetry](https://raw.githubusercontent.com/adversarialtools/apple-telemetry/master/blacklist) to the blocklist as well using "TLD Blacklisting"
+
 ## Server Setup
 
 | Hardware | Software |
@@ -158,6 +162,7 @@ WARNING: If you do not use RAID, you will still need to "virtualize" your disks 
 
 -	Plugged in my USB 2.0 with the Dell ESXi ISO flashed on it
 -	Connected my second ethernet cable to one of the 4 ethernet ports in the back 
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703184112.png?raw=true)
 -	Powered on the server
 -	Waited until I was able to press "F11"
 -	Booted off of the USB
@@ -196,6 +201,9 @@ I use Grafana for looking at pfSense data. I followed [Grafana dashboard for pfS
 
 [Kali Linux](https://www.kali.org/) is a Linux distribution meant for penetration testing. My plan is to use this for hash cracking and WPA handshake cracking.
 
+## Physical Setup
+
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703184221.png?raw=true)
 
 
 https://github.com/harisqazi1/blog/blob/main/assets/
