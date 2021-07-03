@@ -190,7 +190,7 @@ Dashboard: This is an Ubuntu VM with 2 docker containers and Grafana:
 
 ![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703182949.png?raw=true)
 
-I use Grafana for looking at pfSense data. I followed [Grafana dashboard for pfSense | PSYCHOGUN](https://psychogun.github.io/docs/pfsense/Grafana-dashboard-for-pfSense/#install-influxdb) to set mine up. I just had to change some settings on my end, since they did not work for me, but I got it setup. I did not setup TLS on mine, but it would be a good idea to do so.
+I use Grafana for looking at pfSense data. I followed [Grafana dashboard for pfSense PSYCHOGUN](https://psychogun.github.io/docs/pfsense/Grafana-dashboard-for-pfSense/#install-influxdb) to set mine up. I just had to change some settings on my end, since they did not work for me, but I got it setup. I did not setup TLS on mine, but it would be a good idea to do so.
 
 [Jellyfin](https://jellyfin.org/docs/index.html) is an open-source alternative to Plex. I use this for video game clips and more. 
 
