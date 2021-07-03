@@ -148,9 +148,29 @@ I wanted to have a backup system for my server. I used RAID (Redundant Array of 
 
 ### VMware ESXi Setup
 
-I downloaded ESXi from 
+I downloaded ESXi from [VMware](https://my.vmware.com/web/admin/). For my server, the version that worked was 6.5U3 (Version 6.5 Update 3). I used [this link](https://kb.vmware.com/s/article/2107518?lang=en_US&queryTerm=esxi+6+5+download) to find out how to find the download and how to find the license for my product. Since mine was a Dell Server, I first went to the VMware to to find the right file:
 
+![](https://github.com/harisqazi1/blog/blob/main/assets/Pasted%20image%2020210703173533.png?raw=true)
 
+I then downloaded it, and uses [Balena Etcher](https://www.balena.io/etcher/) in order to flash the ISO onto my USB drive. I then plugged my USB into my server and booted from the USB. I do not have screenshots to walk-through that part, but I can rephrase what I did:
+
+WARNING: If you do not use RAID, you will still need to "virtualize" your disks that way ESXi can use it as storage.
+
+-	Plugged in my USB 2.0 with the Dell ESXi ISO flashed on it
+-	Connected my second ethernet cable to one of the 4 ethernet ports in the back 
+-	Powered on the server
+-	Waited until I was able to press "F11"
+-	Booted off of the USB
+-	When asked for where to setup ESXi, I chose my RAID-5 virtual disk
+-	I then waited for the packages in ESXi download, and I ended up on a page (half yellow / half black)
+	-	This shows the IP the ESXi is on your network
+-	I then was able to connect to the ESXi host, and start making VMs
+
+### My Setup
+
+At this point, I configured the server to my needs. I will go into detail about what I did so it is clear if someone in the future wanted to replicate it.
+
+#### ESXi VMs
 
 
 
