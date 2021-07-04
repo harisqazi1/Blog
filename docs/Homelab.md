@@ -32,8 +32,7 @@ I wanted to build a Homelab for myself in order to get enterprise experience wit
 | Type | Name |
 |------|-------|
 |Firewall | Pfsense |
-| Virtualization | VMware ESXi 6.5U3|
-| SIEM | AlienVault OSSIM |
+| Virtualization | VMware ESXi 6.5U3||
 | Cloud | NextCloud |
 | RSS Feed | FreshRSS |
 | Password/Hash Cracking | Kali Linux |
